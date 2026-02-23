@@ -11,14 +11,14 @@
     
     <meta name="author" content="zhangbohun">
     
-    <meta name="description" content="##首先先来最想说的话：
+    <meta name="description" content="首先先来最想说的话：
 
 我写软件的最初衷就是给自己写软件。然后，如果自己觉得好用的话，也可以分享给别人。
 
-##软件介绍MyHotKey这个小软件的功能有两个：
+软件介绍MyHotKey这个小软件的功能有两个：
 
 Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死可以试试。
-最关键的，Win键+S键调用默认浏览器搜索当前选中的文字（如">
+最关键的，Win键+S键调用默认浏览器搜索当前选中的文字（如果选中的">
     
     
     
@@ -90,21 +90,21 @@ Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#首先"><span class="toc-number">1.</span> <span class="toc-text">首先</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#软件介绍"><span class="toc-number">2.</span> <span class="toc-text">软件介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他（可不看）"><span class="toc-number">3.</span> <span class="toc-text">其他（可不看）</span></a></li></ol>
 		
 		</div>
 		
-		<p>##首先<br>先来最想说的话：</p>
+		<h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>先来最想说的话：</p>
 <blockquote>
 <p>我写软件的最初衷就是给自己写软件。然后，如果自己觉得好用的话，也可以分享给别人。</p>
 </blockquote>
-<p>##软件介绍<br>MyHotKey这个小软件的功能有两个：</p>
+<h2 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h2><p>MyHotKey这个小软件的功能有两个：</p>
 <ol>
 <li>Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死可以试试。</li>
 <li>最关键的，Win键+S键调用默认浏览器搜索当前选中的文字（如果选中的文字是网址链接则直接打开网址）；搜索引擎可在配置文件中自定义设置（两种搜索配置，通过CustomURLEnable切换，一种是使用自定义的搜索页面CustomURL，另一种是自定义默认搜索页面的搜索引擎LocalRightURL和LocalLeftURL），设置完成后Win键+R键重载配置生效。<br>另外默认的搜索需要使用本机的网络端口，如果有冲突可以修改LocalWebServicePort数值来设定。<br>如果喜欢默认搜索，也可以把<code>http://localhost:8087/MySearch?keyword=%s</code>作为浏览器的搜索引擎，当然这个只有在启动了MyHotKey以后才有效的。<br>如果想要开机自启的话，还是通过自建快捷方式到系统启动文件夹来实现。</li>
 </ol>
 <p>下载链接：<a href="http://pan.baidu.com/s/1gfmDa4V" target="_blank" rel="noopener">百度网盘</a></p>
-<p>##其他（可不看）<br>接下来梳理一下写这个软件的过程。<br>这篇文章拖了这么久才发出来的最主要原因在于第二个搜索功能，想要默认是二重搜索，就是说搜索结果的页面会同时显示<a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a>和<a href="https://www.google.com" target="_blank" rel="noopener">谷歌</a>的搜索结果。最开始通过<a href="http://baigoogledu.com/" target="_blank" rel="noopener">百谷歌度</a>实现，可没想到刚用了没多久，百谷歌度的网站就挂了，之后一直没找到合适的替代网站，就想着等到百谷歌度恢复了再分享这个软件，可惜似乎是不可能了。（后来一直用<a href="http://www.3bsou.com/" target="_blank" rel="noopener">三百搜</a>替代，这也是软件现在预设的自定义搜索，但它的谷歌搜索有点问题，总之不是理想之选。）</p>
+<h2 id="其他（可不看）"><a href="#其他（可不看）" class="headerlink" title="其他（可不看）"></a>其他（可不看）</h2><p>接下来梳理一下写这个软件的过程。<br>这篇文章拖了这么久才发出来的最主要原因在于第二个搜索功能，想要默认是二重搜索，就是说搜索结果的页面会同时显示<a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a>和<a href="https://www.google.com" target="_blank" rel="noopener">谷歌</a>的搜索结果。最开始通过<a href="http://baigoogledu.com/" target="_blank" rel="noopener">百谷歌度</a>实现，可没想到刚用了没多久，百谷歌度的网站就挂了，之后一直没找到合适的替代网站，就想着等到百谷歌度恢复了再分享这个软件，可惜似乎是不可能了。（后来一直用<a href="http://www.3bsou.com/" target="_blank" rel="noopener">三百搜</a>替代，这也是软件现在预设的自定义搜索，但它的谷歌搜索有点问题，总之不是理想之选。）</p>
 <p>直到最近（20160401），工作也找好了，毕设也没什么事了，闲下来就想把这个小软件给完善一下。研究了一下新版的Aauto快手(改名叫<a href="http://bbs.aardio.com/" target="_blank" rel="noopener">aardio</a>了），发现新版中自建本机http服务器的代码实现变得非常简洁，这正好有助于实现我改进的办法：自建一个本地的http服务器，然后调用自己做的搜索页面，这样的好处是不用担心网上那些多重搜索的网站不稳定的问题，而且可以自定义搜索引擎，另外如果觉得原页面太简陋还可以自行修改。</p>
 <p>等基本的做好之后又发现一个大坑，谷歌搜索结果的页面是不允许被别的网页的frame调用的（因为设置了X-Frame-Options：SAMEORIGIN限制），研究了很久也没办法，最后找到了一个合适的<a href="http://www.g363.com/" target="_blank" rel="noopener">谷歌镜像站</a>替代，也很不错。</p>
 <p>大概就是这样了。</p>
@@ -182,7 +182,7 @@ Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#首先"><span class="toc-number">1.</span> <span class="toc-text">首先</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#软件介绍"><span class="toc-number">2.</span> <span class="toc-text">软件介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他（可不看）"><span class="toc-number">3.</span> <span class="toc-text">其他（可不看）</span></a></li></ol>
  
   </div>
 
@@ -201,7 +201,7 @@ Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死
 		
 			<li><a href="/categories/1-编程/" title="1.编程">1.编程<sup>5</sup></a></li>
 		
-			<li><a href="/categories/2-软件/" title="2.软件">2.软件<sup>9</sup></a></li>
+			<li><a href="/categories/2-软件/" title="2.软件">2.软件<sup>10</sup></a></li>
 		
 			<li><a href="/categories/3-写作/" title="3.写作">3.写作<sup>3</sup></a></li>
 		
@@ -221,7 +221,7 @@ Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死
   <div class="tagcloudlist">
     <p class="asidetitle">标签云</p>
     <div class="tagcloudlist clearfix">
-       <a href="/tags/书籍/" style="font-size: 11.67px;">书籍</a> <a href="/tags/介绍/" style="font-size: 15px;">介绍</a> <a href="/tags/代码/" style="font-size: 10px;">代码</a> <a href="/tags/使用技巧/" style="font-size: 15px;">使用技巧</a> <a href="/tags/工具/" style="font-size: 18.33px;">工具</a> <a href="/tags/幻想/" style="font-size: 13.33px;">幻想</a> <a href="/tags/我的软件/" style="font-size: 18.33px;">我的软件</a> <a href="/tags/整理总结/" style="font-size: 20px;">整理总结</a> <a href="/tags/无损压缩/" style="font-size: 10px;">无损压缩</a> <a href="/tags/旧文/" style="font-size: 15px;">旧文</a> <a href="/tags/时间管理/" style="font-size: 11.67px;">时间管理</a> <a href="/tags/有趣/" style="font-size: 16.67px;">有趣</a> <a href="/tags/神神叨叨/" style="font-size: 13.33px;">神神叨叨</a> <a href="/tags/算法/" style="font-size: 10px;">算法</a> <a href="/tags/观后感/" style="font-size: 11.67px;">观后感</a> <a href="/tags/观点/" style="font-size: 16.67px;">观点</a> <a href="/tags/读后感/" style="font-size: 15px;">读后感</a> <a href="/tags/象征/" style="font-size: 11.67px;">象征</a> <a href="/tags/阅读/" style="font-size: 16.67px;">阅读</a>
+       <a href="/tags/书籍/" style="font-size: 12px;">书籍</a> <a href="/tags/介绍/" style="font-size: 16px;">介绍</a> <a href="/tags/代码/" style="font-size: 10px;">代码</a> <a href="/tags/使用技巧/" style="font-size: 16px;">使用技巧</a> <a href="/tags/工具/" style="font-size: 20px;">工具</a> <a href="/tags/幻想/" style="font-size: 14px;">幻想</a> <a href="/tags/我的软件/" style="font-size: 20px;">我的软件</a> <a href="/tags/整理总结/" style="font-size: 20px;">整理总结</a> <a href="/tags/无损压缩/" style="font-size: 10px;">无损压缩</a> <a href="/tags/旧文/" style="font-size: 16px;">旧文</a> <a href="/tags/时间管理/" style="font-size: 12px;">时间管理</a> <a href="/tags/有趣/" style="font-size: 18px;">有趣</a> <a href="/tags/神神叨叨/" style="font-size: 14px;">神神叨叨</a> <a href="/tags/算法/" style="font-size: 10px;">算法</a> <a href="/tags/观后感/" style="font-size: 12px;">观后感</a> <a href="/tags/观点/" style="font-size: 18px;">观点</a> <a href="/tags/读后感/" style="font-size: 16px;">读后感</a> <a href="/tags/象征/" style="font-size: 12px;">象征</a> <a href="/tags/阅读/" style="font-size: 18px;">阅读</a>
     </div>
   </div>
 
@@ -269,7 +269,7 @@ Win键+Q键强制退出当前应用，这个不多介绍了，遇到软件卡死
 		<a href="mailto:mail@zhangbohun.com" target="_blank" class="icon-email" title="Email Me"></a>
 		
 	</div>
-		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2021 
+		<p class="copyright">Powered by <a href="http://zespia.tw/hexo/" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Pacman">Jacman</a> © 2026 
 		
 		<a href="http://blog.zhangbohun.com/about" target="_blank" title="zhangbohun">zhangbohun</a>
 		
